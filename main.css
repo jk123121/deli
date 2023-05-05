@@ -6,7 +6,6 @@ body {
   
   header {
     flex: 0 150px;
-    xbackground-color: red !important;
   }
 
   .primaryNav {
@@ -53,7 +52,7 @@ body {
   
   @media (max-width: 960px) {
     header {
-      xdisplay: none;
+
     }
     footer {
       display: none;
