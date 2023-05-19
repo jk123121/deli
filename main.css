@@ -5,7 +5,7 @@ body {
   }
   
   header {
-    flex: 0 150px;
+    flex: 0 160px;
   }
 
   .primaryNav {
@@ -13,7 +13,7 @@ body {
   }
 
   .secondaryNav {
-    height: 50px;
+    height: 60px;
   }
 
   .navbar-brand {
@@ -25,11 +25,11 @@ body {
   }
 
   main {
-    flex: 1 calc(100vh - 180px);
+    flex: 1 calc(100vh - 190px);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    xalign-items: center;
+    xjustify-content: space-around;
   }
   
   footer {
