@@ -12,12 +12,7 @@ body {
     height: 100px;
   }
 
-  .secondaryNav {
-    xheight: 60px;
-  }
-
   .navbar-brand {
-    xpadding-left: 0.3em;
     padding-left: 25vw;
   }
 
@@ -33,8 +28,6 @@ body {
     flex: 1 calc(100vh - 185px);
     display: flex;
     flex-direction: column;
-    xalign-items: center;
-    xjustify-content: space-around;
   }
   
   footer {
@@ -57,7 +50,7 @@ body {
   
   @media (max-width: 960px) {
     header {
-
+      padding: 0;
     }
     .navbar-brand{
       padding-left: 0.3em;
