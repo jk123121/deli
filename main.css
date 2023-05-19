@@ -5,7 +5,7 @@ body {
   }
   
   header {
-    flex: 0 160px;
+    flex: 0 155px;
   }
 
   .primaryNav {
@@ -13,19 +13,24 @@ body {
   }
 
   .secondaryNav {
-    height: 60px;
+    xheight: 60px;
   }
 
   .navbar-brand {
-    padding-left: 0.3em;
+    xpadding-left: 0.3em;
+    padding-left: 25vw;
   }
 
   .navbar.second-navbar {
     margin-top: 100px;
   }
 
+  .nav-link{
+    color: white !important;
+  }
+
   main {
-    flex: 1 calc(100vh - 190px);
+    flex: 1 calc(100vh - 185px);
     display: flex;
     flex-direction: column;
     xalign-items: center;
@@ -53,6 +58,9 @@ body {
   @media (max-width: 960px) {
     header {
 
+    }
+    .navbar-brand{
+      padding-left: 0.3em;
     }
     footer {
       display: none;
