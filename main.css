@@ -29,6 +29,10 @@ body {
     display: flex;
     flex-direction: column;
   }
+
+  .mainContent {
+    padding-top: 1vw;
+  }
   
   footer {
     flex: 0 30px;
